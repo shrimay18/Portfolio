@@ -1,0 +1,28 @@
+.intro {
+    padding-left: 4.5vw;
+    padding-top: 5vh;
+    background-color: white;
+    text-align: left;
+    height: 40vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.intro h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+.intro p {
+    color: #666;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 30vw;
+}
+
+.intro img {
+    width: 37vw;
+    height: 50vh;
+    padding-right: 2vw;
+}

@@ -1,0 +1,60 @@
+/* src/NavBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lexend:wght@100&family=Pacifico&family=Vina+Sans&display=swap');
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav-bar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 5vh;
+}
+
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .Name {
+    margin-right: auto;
+}
+
+.nav-bar .nav-links {
+    margin-left: auto;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color:rgb(127,127,127);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.nav-bar li a:hover {
+    background-color: #111;
+}
+
+.Name {
+    font-size: 3em;
+    font-weight: bold;
+    align-items: center;
+    font-family: Pacifico;
+}
