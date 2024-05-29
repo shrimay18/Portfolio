@@ -4,6 +4,9 @@ import logo from './logo.svg';
 import './App.css';
 import Intro from './Intro';
 import Knowledge from './Knowledge';
+import WebDev from './WebDev';
+import DSA from './DSA';
+// import wavingHand from './wavingHand.gif';
 
 function App() {
   return (
@@ -11,6 +14,8 @@ function App() {
       <NavBar />
       <Intro />
       <Knowledge />
+      <WebDev />
+      <DSA />
     </div>
   );
 }

@@ -12,23 +12,23 @@
     justify-content: space-evenly;
 }
 
-.part1 .img1 {
+.part2 .imagehtmlcss {
     width: 40vw;
     height: 60vh;
 }
 
-.part2 {
+.part1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: space-evenly;
 }
 
-.part2 .topicName {
+.part1 .topicName {
     font-size: 2.5rem;
 }
 
-.part2 .para {
+.part1 .para {
     width: 40vw;
     text-align: left;
     font-size: 1.5rem;
