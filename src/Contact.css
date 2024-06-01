@@ -1,0 +1,94 @@
+/* .contact_p1 {
+    display: flex;
+    width: 100%;
+} */
+
+.shrimay {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 4%;
+}
+
+.contactimagesection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.contacticons {
+    display: flex;
+    background-color: rgb(108, 99, 255);
+    height: 20%;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    align-items: center;
+    /* padding: 0.5%; */
+}
+
+.contacticons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github,
+.linkedin,
+.instagram {
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+    margin: 10%;
+    width: 50%;
+}
+
+.linkedin {
+    width: 40%;
+}
+
+.github:hover,
+.linkedin:hover,
+.instagram:hover {
+    transform: scale(1.1);
+}
+
+.contactbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    background-color: rgb(108, 99, 255);
+    width: 15%;
+    height: 6%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.contactbutton:hover {
+    background-color: whitesmoke;
+}
+
+.p2_text {
+    display: flex;
+    background-color: rgb(108, 99, 255);
+    color: white;
+    width: 70%;
+    justify-content: center;
+    margin-bottom: 4%;
+    font-size: 2em;
+    padding: 1%;
+}
+
+.contact_p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.EduPart1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eduDesc {
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 15vh;
+    flex-direction: column;
+}
+
+.eduDescHeading {
+    font-size: 2.5em;
+}

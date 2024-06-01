@@ -1,0 +1,61 @@
+.heading-degree {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.degree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    background-color: rgb(166, 161, 255);
+    padding: 1%;
+    border-radius: 8%;
+
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    /* background-color: rgb(166,161,255); */
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1.2em;
+    color: gray;
+    /* background-color: rgb(166,161,255); */
+}
+
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.edu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.edu button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    /* padding: %; */
+}

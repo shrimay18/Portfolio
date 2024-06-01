@@ -21,7 +21,6 @@ function DSA() {
                     </div>
                 </div>
             </div>
-            <footer>Made with love by Shrimay Somani</footer>
         </div>
     )
 }

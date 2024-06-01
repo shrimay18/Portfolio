@@ -1,0 +1,44 @@
+.imgproject {
+    margin: 2%;
+}
+
+.projectp1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectp1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.projectp2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.AAS,
+.TB {
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding:5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.AAS:hover,.TB:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}

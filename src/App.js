@@ -1,22 +1,29 @@
 import React from 'react';
-import NavBar from './NavBar';
-import logo from './logo.svg';
 import './App.css';
-import Intro from './Intro';
-import Knowledge from './Knowledge';
-import WebDev from './WebDev';
-import DSA from './DSA';
-// import wavingHand from './wavingHand.gif';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Education from './Education';
+import NavBar from './NavBar';
+import Love from './Love';
+import Skills from './Skills';
+import Projects from './Projects';
+import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App">
+    
+    <BrowserRouter>
       <NavBar />
-      <Intro />
-      <Knowledge />
-      <WebDev />
-      <DSA />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/education' element={<Education />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+      <Love />
+    </BrowserRouter>
   );
 }
 
