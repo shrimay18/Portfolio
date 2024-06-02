@@ -3,7 +3,7 @@
     padding-top: 5vh;
     background-color: white;
     text-align: left;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     overflow: hidden;
     justify-content: space-evenly;
@@ -32,4 +32,37 @@
     width: 37vw;
     height: 50vh;
     padding-right: 2vw;
+}
+
+.home-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    width: 12vw;
+}
+
+.h-social {
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+
+}
+
+.svg-inline--fa {
+    width: 3vw;
+    height: 3vh;
+    fill: red;
+
+
+}
+
+.writing {
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.home-img-right {
+    /* margin-bottom: 10vh; */
 }

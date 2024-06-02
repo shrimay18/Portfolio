@@ -7,6 +7,10 @@ import instagram from './instagram.jpeg';
 import endimg from './lastimg.png';
 
 function Contact() {
+    
+    const handleClick = () => {
+        alert("will be shared soon");
+    };
     return (
         <>
             <div className='contacts'>
@@ -22,14 +26,14 @@ function Contact() {
                                 <a href="https://github.com/dashboard" target="_blank" rel="noreferrer">
                                     <img src={github} alt='github' className='github' />
                                 </a>
-                                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">
+                                <a href="https://in.linkedin.com/in/shrimay-somani-9769a12a2" target="_blank" rel="noreferrer">
                                     <img src={linkedin} alt='linkedin' className='linkedin' />
                                 </a>
-                                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                                <a href="https://www.instagram.com/shrimay_somani/?igsh=MTJpMTdiazFpcjB0MQ%3D%3D" target="_blank" rel="noreferrer">
                                     <img src={instagram} alt='instagram' className='instagram' />
                                 </a>
                             </div>
-                            <button className='contactbutton'>My Resume</button>
+                            <button className='contactbutton' onClick={handleClick}>My Resume</button>
                         </div>
                     </div>
                 </div>

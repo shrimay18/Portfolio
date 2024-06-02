@@ -13,22 +13,25 @@ function Projects() {
                 </div>
             </div>
             <div className='projectp2'>
-                <div className='AAS'>
-                    <h2>
-                        Advanced Attendance System
-                    </h2>
-                    <p>
-                        This project is a project that I did for a client. It was a project that was done in a week. The client was very happy with the results and I was very happy with the results. I learned a lot from this project and I am very proud of it.
-                    </p>    
-                </div>
-                <div className='TB'>
-                    <h2>
-                        Telegram Bot
-                    </h2>
-                    <p>
-                        This project is a project that I did for a client. It was a project that was done in a week. The client was very happy with the results and I was very happy with the results. I learned a lot from this project and I am very proud of it. It is very interesting and enjoyable 
-                    </p>    
-                </div>
+                <a href="https://github.com/shrimay18/Image_Editor">
+                    <div className='AAS'>
+                        <h2>
+                            Image Editor
+                        </h2>
+                        <p>
+                            This project was made in first year of my college in the first trimester after learning DSA & made me understand how even a pixel change causes a image look better & understand the basics of image editing                  </p>
+                    </div>
+                </a>
+                <a href="https://github.com/shrimay18/Quiz_App">
+                    <div className='TB'>
+                        <h2>
+                            Quiz App
+                        </h2>
+                        <p>
+                            This project is a projct was made using Javascript . It was made as an submission to the asignment given in the class . This project help me improve my Javascript skills and excell in it
+                        </p>
+                    </div>
+                </a>
 
             </div>
         </div>
