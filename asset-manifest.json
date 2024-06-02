@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0221e158.css",
+    "main.js": "/Portfolio/static/js/main.76fb94bf.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Data Science.jpg": "/Portfolio/static/media/Data Science.83b775f674ca30a8b43f.jpg",
+    "static/media/wavingHand.gif": "/Portfolio/static/media/wavingHand.21915beba081f06f4282.gif",
+    "static/media/shrimay.jpeg": "/Portfolio/static/media/shrimay.4cf71550bfaf8e9c74d8.jpeg",
+    "static/media/lap.png": "/Portfolio/static/media/lap.431552213fc78ec7dec9.png",
+    "static/media/skill.png": "/Portfolio/static/media/skill.e5312dc2b8381a672b39.png",
+    "static/media/JavaScript.jpg": "/Portfolio/static/media/JavaScript.b7cef96cabf8f3c72952.jpg",
+    "static/media/c.jpg": "/Portfolio/static/media/c.fbccc759f5015f6d6352.jpg",
+    "static/media/lastimg.png": "/Portfolio/static/media/lastimg.f4dcab5ec23888282b8d.png",
+    "static/media/img1.png": "/Portfolio/static/media/img1.2f6395f5fbb01fa15c1c.png",
+    "static/media/htmlcss.png": "/Portfolio/static/media/htmlcss.ec568a99203619d6dc23.png",
+    "static/media/Education1.png": "/Portfolio/static/media/Education1.3d104221add0cef33a60.png",
+    "static/media/projectimage.png": "/Portfolio/static/media/projectimage.4cffd21b5a4933a9c8b8.png",
+    "static/media/DSA1.png": "/Portfolio/static/media/DSA1.0b68a97d6e2e9a716ca1.png",
+    "static/media/language.png": "/Portfolio/static/media/language.0b9fec7d992eb67129b5.png",
+    "static/media/names.png": "/Portfolio/static/media/names.2e1d0da5dfde0f7fffbf.png",
+    "index.html": "/Portfolio/index.html",
+    "main.0221e158.css.map": "/Portfolio/static/css/main.0221e158.css.map",
+    "main.76fb94bf.js.map": "/Portfolio/static/js/main.76fb94bf.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0221e158.css",
+    "static/js/main.76fb94bf.js"
+  ]
+}
